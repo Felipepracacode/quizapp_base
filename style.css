@@ -81,6 +81,10 @@ main {
 }
 
 .boas_vindas {
+    margin-bottom: 40px;
+}
+
+.boas_vindas h1 {
     font-size: 40px;
     font-weight: 300;
     color: var(--primary-text-color);
@@ -96,7 +100,6 @@ main {
     font-size: 14px;
     line-height: 150%;
     font-style: italic;
-    
 }
 
 .assuntos {
@@ -175,7 +178,7 @@ main {
         width: 20px;
         height: 20px;
     }
-
+    
     main {
         display: flex;
         max-width: 1160px;

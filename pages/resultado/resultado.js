@@ -33,7 +33,9 @@ function inserirResultado() {
 
     sectionPontuacao.innerHTML = `
         ${divAssunto.outerHTML}
+
         <strong>${pontos}</strong>
+
         <p>de 10</p>
     `
 }
@@ -41,7 +43,7 @@ function inserirResultado() {
 function jogarNovamente() {
     localStorage.removeItem("pontos")
     localStorage.removeItem("assunto")
-
+    
     window.location.href = "../../index.html"
 }
 

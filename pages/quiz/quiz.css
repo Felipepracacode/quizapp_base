@@ -11,8 +11,8 @@
     --bg-span: #f4f6fa;
     --color-span: #626c7f;
     --purple: #a729f5;
-    --primary-text-color: #313e51;
     --purple-hover: rgba(167, 41, 245, 0.7);
+    --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
     --button-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 168, 193, 0.14);
@@ -29,8 +29,8 @@
 
 body.escuro {
     --bg-color: #313e51;
-    --bg-mobile: url(../../assets/images/pattern-background-mobile-dark.svg);
     --color-span: #323e51;
+    --bg-mobile: url(../../assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-dark.svg);
     --primary-text-color: #fff;
     --secondary-text-color: #abc1e1;
@@ -180,6 +180,7 @@ main {
         color: var(--purple);
     }
 }
+
 .alternativas label:has(input:checked) {
     outline: 3px solid var(--purple);
 
@@ -187,7 +188,6 @@ main {
         background: var(--purple);
         color: var(--white);
     }
-
 }
 
 .alternativas label#correta {
@@ -208,7 +208,6 @@ main {
     }
 }
 
-
 .alternativas input {
     display: none;
 }
@@ -226,6 +225,7 @@ main {
     background: var(--bg-span);
     border-radius: 5px;
     color: var(--color-span);
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,59 +288,59 @@ main {
     .tema button div {
         width: 20px;
         height: 20px;
-     }
+    }
 
-        main {
-            max-width: 1160px;
-            margin-inline: auto;
-    
-            display: flex;
-            gap: 130px;
-        }
-    
-        section {
-            width: 100%;
-        }
-    
-        .pergunta {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    
-        .pergunta p {
-            font-size: 20px;
-            line-height: 30px;
-            margin-bottom: 27px;
-        }
-    
-        .pergunta h2 {
-            font-size: 36px;
-            line-height: 43px;
-        }
-    
-        .alternativas form {
-            gap: 24px;
-            margin-bottom: 24px;
-        }
-    
-        .alternativas label {
-            font-size: 22px;
-            padding: 18px 20px;
-            border-radius: 24px;
-        }
-    
-        .alternativas div {
-            gap: 32px;
-        }
-    
-        .alternativas div span {
-            width: 56px;
-            height: 56px;
-            font-size: 28px;
-        }
-    
-        .alternativas button {
-            font-size: 22px;
-        }
+    main {
+        max-width: 1160px;
+        margin-inline: auto;
+
+        display: flex;
+        gap: 130px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .pergunta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pergunta p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 27px;
+    }
+
+    .pergunta h2 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .alternativas form {
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    .alternativas label {
+        font-size: 22px;
+        padding: 18px 20px;
+        border-radius: 24px;
+    }
+
+    .alternativas div {
+        gap: 32px;
+    }
+
+    .alternativas div span {
+        width: 56px;
+        height: 56px;
+        font-size: 28px;
+    }
+
+    .alternativas button {
+        font-size: 22px;
+    }
 }
