@@ -50,7 +50,7 @@ function montarPergunta() {
                 <h2>${alterarSinais(quiz.questions[pergunta-1].question)}</h2>
             </div>
             <div class="barra_progresso">
-                <div style="width: ${pergunta*10}%"></div>
+                <div style="width: ${pergunta * 10}%"></div>
             </div>
         </section>
         <section class="alternativas">
@@ -95,6 +95,9 @@ function alterarSinais(texto) {
 function guardarResposta(evento) {
     resposta = evento.target.value
     idInputResposta = evento.target.id
+
+    console.log(resposta)
+    console.log(idInputResposta)
 
     const botaoEnviar = document.querySelector(".alternativas button")
     botaoEnviar.addEventListener("click", validarResposta)
